@@ -37,7 +37,7 @@ the Self column.
 
 ## An architecture for simple games in code
 
-The `template/game.js` file contains the architecture
+The `template-game/game.js` file contains the architecture
 with all the actual game-specific code stripped out.  This file
 might be a good starting point for your game.
 
