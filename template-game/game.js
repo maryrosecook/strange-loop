@@ -1,4 +1,4 @@
-// A model game
+// A template for an action game
 
 ;(function() {
   var Game = function() {
