@@ -35,27 +35,6 @@ the Self column.
 
 * Make those functions more efficient!
 
-## Debugging frequently running code
-
-It is possible to slow down game execution speed just by logging
-debug output to the browser console.
-
-Also, sometimes, a function is run so frequently that, when we try and
-log anything, the log races past too fast for us to see.
-
-    function update() {
-      var interestingObj = {};
-      console.log(interestingObj);
-    };
-
-We can solve this problem by forcing a runtime error:
-
-    function update() {
-      var interestingObj = {};
-      console.log(interestingObj);
-      throw "stop";
-    };
-
 ## An architecture for simple games in code
 
 The `template/game.js` file contains the architecture
