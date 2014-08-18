@@ -6,9 +6,9 @@ The code is in `space-invaders/space-invaders.js`.
 
 ## Host a JS game
 
-To run the example code:
+To serve the Space Invaders code
 
-    $ cd retro-games/
+    $ cd strange-loop/
     $ python -m SimpleHTTPServer 4000
     $ open space-invaders/index.html
 
@@ -69,20 +69,20 @@ might be a good starting point for your game.
 Reasonably simple.  Probably the best example for focusing on the
 architecture above and not getting bogged down in implementation details.
 
-[img]
+![Screenshot of Snake](snake-screenshot.png)
 
 ### Asteroids
 
-Requries some trigonometry to work out when lines are intersecting.
+Requries some trigonometry to detect when lines are intersecting.
 
-[img]
+![Screenshot of Asteroids](asteroids-screenshot.png)
 
 ### Lunar Lander
 
-Requires some trigonometry to work out when lines are intersecting.  Also fiddly
-because it must let the lander rest on a landing pad.
+Requires some trigonometry to detect when lines are intersecting.  Also fiddly
+because the lander has to be able to rest on the landing pad.
 
-[img]
+![Screenshot of Lunar Lander](lunar-lander-screenshot.png)
 
 ## How to get started
 
