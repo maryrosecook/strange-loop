@@ -20,7 +20,7 @@ To run the example code:
 
 * Click Collect JavaScript CPU Profile.
 
-* Run the game.
+* Run your game.
 
 * Click the grey circle below the magnifying glass on the left.
 
@@ -90,7 +90,7 @@ because it must let the lander rest on a landing pad.
 
 2. Create a game tick function and get it running many times a second.
 
-3. Make the black square move across the screen on its own.
+3. In the tick function, update increment the position of the black square to make it move acrosse the screen.
 
 4. Create a player body and get its update() and draw() functions running.
 
