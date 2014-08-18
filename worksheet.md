@@ -1,5 +1,9 @@
 # Worksheet for Strange Loop workshop
 
+## Code for this workshop
+
+https://github.com/maryrosecook/strange-loop
+
 ## Mary livecodes Space Invaders
 
 The code is in `space-invaders/space-invaders.js`.
@@ -35,18 +39,18 @@ the Self column.
 
 * Make those functions more efficient!
 
-## An architecture for simple games in code
+## An architecture for action games
 
 The `template-game/game.js` file contains the architecture
-with all the actual game-specific code stripped out.  This file
-might be a good starting point for your game.
+with all the actual game-specific code stripped out.  This is
+a good reference point for your game.
 
 ## What game to make?
 
 ### Snake
 
 Reasonably simple.  Probably the best example for focusing on the
-architecture above and not getting bogged down in implementation details.
+architecture and not getting bogged down in implementation details.
 
 ![Screenshot of Snake](snake-screenshot.png)
 
