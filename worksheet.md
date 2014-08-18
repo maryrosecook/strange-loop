@@ -4,6 +4,8 @@
 
 The code is in `space-invaders/space-invaders.js`.
 
+## Host a JS game
+
 To run the example code:
 
     $ cd retro-games/
@@ -53,40 +55,6 @@ We can solve this problem by forcing a runtime error:
       console.log(interestingObj);
       throw "stop";
     };
-
-## An architecture for simple games in words
-
-These are not rules, just guidelines.
-
-* index.html with canvas in it.
-
-* game.js with code.
-
-* All points/sizes are modelled as: { x: 5, y: 7 }.
-
-* Game created with constructor function.
-
-* Game constructor runs game loop.
-
-* Game object has center and size.
-
-* Game prototype has update() and draw().
-
-* Each type of body has a constructor function.
-
-* Each body constructor is passed the game object.
-
-* Each body has center and (maybe) size.
-
-* Each body prototype has update() and draw().
-
-* Bodies are stored in one array on the game object.
-
-* Collisions are determined centrally.  Colliding bodies are
-notified they have collided by calling collision() on each one.
-
-* Currently pressed keys are recorded by a module that can be
-interrogated by the player object.
 
 ## An architecture for simple games in code
 
