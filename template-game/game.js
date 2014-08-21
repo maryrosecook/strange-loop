@@ -54,7 +54,7 @@
   var Player = function(game) {
     this.game = game;
     this.size = { x: 10, y: 10 }; // TODO: set to player size
-    this.center = { x: game.size.x, y: game.size.y }; // TODO: set to initial player center
+    this.center = { x: game.center.x, y: game.center.y }; // TODO: set to initial player center
     this.keyboarder = new Keyboarder();
   };
 
