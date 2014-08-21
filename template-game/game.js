@@ -63,7 +63,7 @@
       throw "implement me";
     },
 
-    draw: function() {
+    draw: function(screen) {
       throw "implement me";
     },
 
