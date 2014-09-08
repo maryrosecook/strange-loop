@@ -83,20 +83,20 @@ the Self column.
 Reasonably simple.  Probably the best example for focusing on the
 architecture and not getting bogged down in implementation details.
 
-![Screenshot of Snake](snake-screenshot.png)
+![Screenshot of Snake](worksheet-images/snake-screenshot.png)
 
 ### Asteroids
 
 Requries some trigonometry to detect when lines are intersecting.
 
-![Screenshot of Asteroids](asteroids-screenshot.png)
+![Screenshot of Asteroids](worksheet-images/asteroids-screenshot.png)
 
 ### Lunar Lander
 
 Requires some trigonometry to detect when lines are intersecting.  Also fiddly
 because the lander has to be able to rest on the landing pad.
 
-![Screenshot of Lunar Lander](lunar-lander-screenshot.png)
+![Screenshot of Lunar Lander](worksheet-images/lunar-lander-screenshot.png)
 
 ## How to get started
 
