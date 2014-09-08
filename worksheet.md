@@ -17,13 +17,13 @@ be here to troubleshoot and give advice.
 Every game has different, low-level problems that need to be solved.
 The solutions to these problems are different for different games.
 If this workshop were about how to do animation, or player movement,
-or collision resolution, it would not be that useful.  The techniques
+or collision resolution, it would not be very useful.  The techniques
 I presented would be useful for one game, but not others.
 
 This workshop is based around letting you practice using an
-architectural approach to 2D action games.  This approach can be
-applied to many different games.  It scales to ten, a hundred or
-a thousand times as many lines of code.
+architectural approach that is good for building 2D action games.
+This approach can be applied to many different games.  It scales to
+ten, a hundred or a thousand times as many lines of code.
 
 This workshop will also let you complete, or make good progress on,
 your first game.
