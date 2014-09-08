@@ -6,7 +6,7 @@ https://github.com/maryrosecook/strange-loop
 
 ## The itinerary
 
-1. I'll livecode Space Invaders from sratch.
+1. I'll livecode Space Invaders from scratch.
 2. We'll briefly dissect the architectural approach I used.
 3. You'll choose what game to implement: Snake, Asteroids, Lunar Lander.
 4. You'll spend the rest of the workshop implementing your game.  I'll
