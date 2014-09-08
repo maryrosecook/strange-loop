@@ -4,16 +4,59 @@
 
 https://github.com/maryrosecook/strange-loop
 
-## Mary livecodes Space Invaders
+## The itinerary
+
+1. I'll livecode Space Invaders from sratch.
+2. We'll briefly dissect the architectural approach I used.
+3. You'll choose what game to implement: Snake, Asteroids, Lunar Lander.
+4. You'll spend the rest of the workshop implementing your game.  I'll
+be here to troubleshoot and give advice.
+
+## The aims of this workshop
+
+Every game has different, low-level problems that need to be solved.
+The solutions to these problems are different for different games.
+If this workshop were about how to do animation, or player movement,
+or collision resolution, it would not be that useful.  The techniques
+I presented would be useful for one game, but not others.
+
+This workshop is based around letting you practice using an
+architectural approach to 2D action games.  This approach can be
+applied to many different games.  It scales to ten, a hundred or
+a thousand times as many lines of code.
+
+This workshop will also let you complete, or make good progress on,
+your first game.
+
+## Space Invaders
 
 The code is in `space-invaders/space-invaders.js`.
 
-## Host a JS game
+## The game architecture
+
+The `template-game/game.js` file contains the architecture
+with all the actual game-specific code stripped out.  This is
+a good reference point for your game.
+
+This architecture is not set in stone.  Feel free to deviate
+from it if your game requires it.
+
+## Host (run) a JS game
+
+### Install Python 2
+
+### Run
 
 To serve the Space Invaders code
 
     $ cd strange-loop/
     $ python -m SimpleHTTPServer 4000
+    $ open space-invaders/index.html
+
+### Python 3 version
+
+    $ cd strange-loop/
+    $ python -m http.server 4000
     $ open space-invaders/index.html
 
 ## Performance profiling
@@ -38,12 +81,6 @@ To serve the Space Invaders code
 the Self column.
 
 * Make those functions more efficient!
-
-## An architecture for action games
-
-The `template-game/game.js` file contains the architecture
-with all the actual game-specific code stripped out.  This is
-a good reference point for your game.
 
 ## What game to make?
 
@@ -80,3 +117,7 @@ because the lander has to be able to rest on the landing pad.
 5. Use the keyboard to move the player around.
 
 6. ...
+
+## Canvas drawing reference
+
+See `canvas-drawing-reference.md` in the root of this repo.
