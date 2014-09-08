@@ -53,12 +53,6 @@ To serve the Space Invaders code
     $ python -m SimpleHTTPServer 4000
     $ open space-invaders/index.html
 
-### Python 3 version
-
-    $ cd strange-loop/
-    $ python -m http.server 4000
-    $ open space-invaders/index.html
-
 ## Performance profiling
 
 * Open dev tools in Chrome.
