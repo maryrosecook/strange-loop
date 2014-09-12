@@ -104,7 +104,7 @@ because the lander has to be able to rest on the landing pad.
 
 2. Create a game tick function and get it running many times a second.
 
-3. In the tick function, update increment the position of the black square to make it move acrosse the screen.
+3. In the tick function, update increment the position of the black square to make it move across the screen.
 
 4. Create a player body and get its update() and draw() functions running.
 
