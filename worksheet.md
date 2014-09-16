@@ -14,11 +14,11 @@ be here to troubleshoot and give advice.
 
 ## The aims of this workshop
 
-Every game has different, low-level problems that need to be solved.
+Every game has different, gameplay-specific problems that need to be solved.
 The solutions to these problems are different for different games.
 If this workshop were about how to do animation, or player movement,
 or collision resolution, it would not be very useful.  The techniques
-I presented would be useful for one game, but not others.
+I presented would be useful for some games, but not others.
 
 This workshop is based around letting you practice using an
 architectural approach that is good for building 2D action games.
@@ -35,11 +35,11 @@ The code is in `space-invaders/space-invaders.js`.
 ## The game architecture
 
 The `template-game/game.js` file contains the architecture
-with all the actual game-specific code stripped out.  This is
-a good reference point for your game.
+with all the game-specific code stripped out.  This is
+a good starting point for your game.
 
 This architecture is not set in stone.  Feel free to deviate
-from it if your game requires it.
+from it if you feel it is hampering you.
 
 ## Host (run) a JS game
 
@@ -74,7 +74,7 @@ To serve the Space Invaders code
 * Note the percentages of CPU time and function names near the top of the
 the Self column.
 
-* Make those functions more efficient!
+* Make those functions more efficient.
 
 ## What game to make?
 
@@ -104,17 +104,16 @@ because the lander has to be able to rest on the landing pad.
 
 2. Create a game tick function and get it running many times a second.
 
-3. In the tick function, update increment the position of the black square to make it move across the screen.
+3. Create a player body and get its update() and draw() functions running.
 
-4. Create a player body and get its update() and draw() functions running.
+4. Use the keyboard to move the player around.
 
-5. Use the keyboard to move the player around.
-
-6. ...
+5. ...
 
 ## Canvas drawing reference
 
-See `canvas-drawing-reference.md` in the root of this repo.
+See `canvas-drawing-reference.md` in the root of this repo.  It has
+code for changing colors, drawing lines, polygons and circles.
 
 ## Collision detection
 
