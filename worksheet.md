@@ -53,29 +53,6 @@ To serve the Space Invaders code
     $ python -m SimpleHTTPServer 4000
     $ open space-invaders/index.html
 
-## Performance profiling
-
-* Open dev tools in Chrome.
-
-* Go to the Profiles tab.
-
-* Click Collect JavaScript CPU Profile.
-
-* Run your game.
-
-* Click the grey circle below the magnifying glass on the left.
-
-* Let the game run for a bit.
-
-* Click the grey circle again.
-
-* Click on Profile 1 on the left.
-
-* Note the percentages of CPU time and function names near the top of the
-the Self column.
-
-* Make those functions more efficient.
-
 ## What game to make?
 
 ### Snake
@@ -120,3 +97,26 @@ code for changing colors, drawing lines, polygons and circles.
 See `handy-collision-detection-functions.js` in the root of this repo.
 It has a function for detecting if two rectangles are intersecting,
 and a function for detecting if two lines are intersecting.
+
+## Performance profiling
+
+* Open dev tools in Chrome.
+
+* Go to the Profiles tab.
+
+* Click Collect JavaScript CPU Profile.
+
+* Run your game.
+
+* Click the grey circle below the magnifying glass on the left.
+
+* Let the game run for a bit.
+
+* Click the grey circle again.
+
+* Click on Profile 1 on the left.
+
+* Note the percentages of CPU time and function names near the top of the
+the Self column.
+
+* Make those functions more efficient.
